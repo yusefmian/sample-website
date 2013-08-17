@@ -1,0 +1,44 @@
+/*This is our custom background image*/
+body {
+background: url(http://cinemuck.com/wp-content/uploads/2013/04/cool-wallpaper.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+
+/*This is for the Nav Bar (To be fixed)*/
+body {
+padding: 0;
+margin: 0;
+}
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #f0f8ff;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+/* Adds shadow to the bottom of the bar */
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+}
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: grey;
+} 
+/*For font*/
+p {color:green; font-size:16px; font-family:Arial;}
+
+margin: 10;
+
+/*For special button color change effect*/
+.changecolor {color:red; font-weight:bold; font-family:Lucida;}

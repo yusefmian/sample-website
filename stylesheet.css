@@ -1,0 +1,54 @@
+body {
+    font-family: Papyrus, fantasy;
+    background: #e0f3ff url(bg.png) repeat scroll 0 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #FFFACD;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    /* Adds shadow to the bottom of the bar */
+    box-shadow: 0px 0px 8px 0px #000000;
+    /* Adds the transparent background */
+    background-color: rgba(1, 1, 1, 0.8);
+    color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    color: #FFFACD;
+}
+
+p.one {
+    border-style: solid;
+    border-width: medium;
+    border-color: FFFACD;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+    border-color: FFFACD;
+}
+
+p.three {
+    border-style: solid;
+    border-width: medium;
+    border-color: FFFACD;
+}
